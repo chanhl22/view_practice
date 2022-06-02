@@ -12,10 +12,15 @@
 <body>
 
     <div id="app">
-        {{ isLargerThanTen }}
-        <button v-on:click="count++">클릭</button>
+        <p>count: {{ count }}</p>
+        <p>second count: {{ secondCount }}</p>
+        <p>computed: {{ double }}</p>
+        <p>methods: {{ triple() }}</p>
+        <button v-on:click="count ++">클릭</button>
+        <button v-on:click="secondCount ++">클릭</button>
     </div>
-    <script src="computed.js"></script>
+
+    <script src="computed_vs_methods_v2.js"></script>
 
 </body>
 
