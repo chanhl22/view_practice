@@ -12,11 +12,13 @@
 <body>
 
     <div id="app">
-        <p v-if="dog">반려동물은 강아지지!</p>
-        <p v-show="dog">귀여운 댕댕이</p>
+        <h1>장 볼 리스트</h1>
+        <ul>
+            <li v-for="item in list">{{ item }}</li>
+        </ul>
     </div>
 
-    <script src="v-if.js"></script>
+    <script src="list.js"></script>
 
 </body>
 
