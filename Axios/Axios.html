@@ -7,16 +7,16 @@
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.13.3/underscore-min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 </head>
 
 <body>
 
     <div id="app">
-        <p v-if="dog">반려동물은 강아지지!</p>
-        <p v-show="dog">귀여운 댕댕이</p>
+        <button v-on:click="fetchData">get data</button>
     </div>
 
-    <script src="v-if.js"></script>
+    <script src="Axios.js"></script>
 
 </body>
 
