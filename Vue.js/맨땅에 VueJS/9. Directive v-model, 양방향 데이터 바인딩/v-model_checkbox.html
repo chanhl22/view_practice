@@ -14,6 +14,13 @@
     <div id="app">
         <input type="checkbox" v-model="name">
         {{ name }}
+        <div>
+            <input type="checkbox" v-model="checkedValues" value="1">
+            <input type="checkbox" v-model="checkedValues" value="2">
+            <input type="checkbox" v-model="checkedValues" value="3">
+            <input type="checkbox" v-model="checkedValues" value="4">
+            {{checkedValues}}
+        </div>
     </div>
 
     <script src="v-model_checkbox.js"></script>

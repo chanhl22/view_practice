@@ -1,6 +1,7 @@
 new Vue({
     el: "#app",
     data: {
-        name: "Hello"
+        name: "Hello",
+        checkedValues: ''
     }
 })
