@@ -16,6 +16,6 @@ new Vue({
         },
         onClickCafeCheck: function(x) {
             console.log(x);
-        }
+        },
     }
 })
